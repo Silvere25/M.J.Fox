@@ -43,7 +43,7 @@ h2
 	color:#233F8C;
 }
 
-p, li
+p, li, label, legend
 {
 	font-size: 0.9em;
 	font-family: 'Raleway', Normal, sans-serif;
@@ -59,6 +59,11 @@ li
 	list-style : square outside url('images/case_cochee_small.png');
 }
 
+legend
+{
+    font-weight: bold;
+}
+
 header
 {
 	padding:20px 20px;
@@ -69,6 +74,7 @@ header
 	background-size:cover;
 	background-attachment:scroll;
 	height:30%;
+    max-height: 180px;
 	overflow:auto;
 }
 
@@ -156,9 +162,20 @@ footer p, .album h2
 	color:#B73423;
 }
 
+.phead
+{
+    text-align: left;
+    color:rgba(252,241,241,0.85);
+}
+
 header p
 {
 	text-align:center;
+}
+
+#envoyer
+{
+    text-align: right;
 }
 
 #portrait

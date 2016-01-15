@@ -1,37 +1,19 @@
-<?php include("includes/x_com.php") ?>
-
+<?php include("includes/x_com.php"); ?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<!--[if lt IE 9]>
-		<script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
-		<![endif]-->
-		<link rel="stylesheet" href="style.css" />
-		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+        <?php include("includes/x_head.php"); ?>
 		<title>I'm Marty McFly</title>
 	</head>
 
 	<body>
 		<!-- organisation de la page : d'abord une section bandeau latéral "album" et une section "contenu" -->
 		<section class="page">
-			<div class="album">
-				<h2>quelques photos</h2>
-				<a href="images/Michael_J_Fox_1988.jpg" title="moi en 88"><img src="images/Michael_J_Fox_1988.jpg" alt="moi en 88" class="bordimage" /></a>
-				<a href="images/Marty_Mc_Fly.jpg" title="moi en Marty McFly"><img src="images/Marty_Mc_Fly.jpg" alt="moi en Marty McFly" class="bordimage" /></a>
-				<a href="images/Michael_J_Fox_Tracy_Pollan.jpeg" title="moi avec femme"><img src="images/Michael_J_Fox_Tracy_Pollan.jpeg" alt="moi avec ma femme" class="bordimage" /></a>
-			</div>
+            <?php include("includes/album.php"); ?>
 		
 			<section class="contenu">
 				<!-- dans la section contenu, un bandeau horizontal header et une section "corps" -->
-				<header>
-					<img src="images/Michael_J._Fox_2012.jpg" alt="mon portrait" id="portrait" />
-					<h1><a href="https://fr.wikipedia.org/wiki/Michael_J._Fox" title="ma page wikipédia">Michael J. Fox</a></h1>					
-					<p class="intro">alias Marty McFly</p>
-					<p>né le 9 juin 1961</p>
-				</header>
+                <?php include("includes/header.php"); ?>
 			
 				<section class="corps">
 					<!-- dans la section corps, 3 sections concernant mes expériences, mes compétences et mes formations -->
@@ -112,7 +94,7 @@
 			</section>
 		</section>
 					
-		<?php include("includes/x_footer.php") ?>
+		<?php include("includes/x_footer.php"); ?>
 		
 	</body>
 </html>
