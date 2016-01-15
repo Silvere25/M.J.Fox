@@ -1,2 +1,2 @@
-
-Copyright (C) 2016 Silvere25
+Copyright (C) 2016 Silvere Camponovo
+contact me at slyatwork@gmail.com
