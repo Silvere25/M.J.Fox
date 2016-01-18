@@ -1,4 +1,8 @@
-<?php include("includes/x_com.php"); ?>
+<?php
+session_start();
+$_SESSION['active_page']="contact";
+include("includes/x_com.php");
+?>
 <!DOCTYPE html>
 <html>
 	<head>

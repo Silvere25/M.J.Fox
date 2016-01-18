@@ -1,4 +1,12 @@
-<?php include("includes/x_com.php"); ?>
+<?php
+session_start();
+$_SESSION['active_page']="form_contact.php";
+if (!isset($_SESSION['login']))
+{
+    echo "<script>window.location = './index.php'</script>";
+}
+include("includes/x_com.php");
+?>
 <!DOCTYPE html>
 <html>
 	<head>
