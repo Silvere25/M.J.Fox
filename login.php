@@ -10,7 +10,7 @@ if (isset($_POST['login']))
     {
         $_SESSION['login_active']=true;
         setcookie('login',$_SESSION['login'],time() + 365*24*3600,null,null,false,true);
-        echo "<script>window.location = './form_contact.php'</script>";
+        echo "<script>window.location = 'fan_page.php'</script>";
     }
     else
     {
