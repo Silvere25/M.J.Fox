@@ -1,6 +1,7 @@
 <?php
 session_start();
 $_SESSION['active_page']="index.php";
+$_SESSION['login_active']=NULL;
 include("includes/x_com.php");
 ?>
 <!DOCTYPE html>
